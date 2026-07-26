@@ -114,7 +114,7 @@ const SITE_DATA = {
       name: "This website",
       description: "A React web application!",
       tags: ["React"],
-      link: "https://github.com/yourhandle/project-three",
+      link: "https://happydragon123.github.io/",
     },
     // Add more projects by copying an object above.
   ],
