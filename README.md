@@ -28,12 +28,13 @@ Check it looks right at localhost:5173 before pushing anything.
 
 2. Commit your source code to main (keeps your code backed up on GitHub)
 
-bash
 git add .
+
 git commit -m "Describe what you changed"
+
 git push
 
 3. Deploy the updated build to the live site
 
-bash
+
 npm run deploy
