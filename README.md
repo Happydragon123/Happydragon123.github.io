@@ -14,3 +14,27 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Workflow for future changes
+
+Whenever you edit PersonalWebsite.jsx (or anything else):
+
+1. Test locally first
+
+bash
+npm run dev
+
+Check it looks right at localhost:5173 before pushing anything.
+
+2. Commit your source code to main (keeps your code backed up on GitHub)
+
+git add .
+
+git commit -m "Describe what you changed"
+
+git push
+
+3. Deploy the updated build to the live site
+
+
+npm run deploy
