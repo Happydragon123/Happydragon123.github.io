@@ -111,11 +111,18 @@ const SITE_DATA = {
       link: "https://github.com/Happydragon123/ShipNGo",
     },
     {
+      name: "Departures",
+      description: "A when2meet clone build for my student organization!",
+      tags: ["Next.js, React, PostgreSQL"],
+      link: "https://epicwhen2meet.vercel.app/",
+    },
+    {
       name: "This website",
       description: "A React web application!",
       tags: ["React"],
       link: "https://happydragon123.github.io/",
     },
+
     // Add more projects by copying an object above.
   ],
 
